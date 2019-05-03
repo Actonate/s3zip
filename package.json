@@ -1,5 +1,5 @@
 {
-  "name": "s3zip",
+  "name": "@actonate/s3zip",
   "version": "1.0.3",
   "main": "index.js",
   "repository": "https://github.com/smarchetti/s3zip.git",
