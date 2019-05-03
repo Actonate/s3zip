@@ -1,6 +1,6 @@
 {
   "name": "@actonate/s3zip",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "repository": "https://github.com/smarchetti/s3zip.git",
   "author": "Sean Marchetti <sean.marchetti@gmail.com>",
