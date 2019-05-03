@@ -22,7 +22,7 @@ zipFiles({keys, bucket, outputFile, s3})
 - __bucket  *(string)*__ : an S3 bucket<br>
 - __outputFile *(string)*__ : the destination key for the zip file on S3<br>
 - __s3 *(object)*__ : AWS S3 instance
-
+- __acl *string)*__ : Pass acl string, for public - 'public-read'
 **Returns**
 
 - __*(Promise)*__: Returns a promise of the S3 upload operation
@@ -37,6 +37,7 @@ zipFiles({
   keys: ['file1.txt', 'file2.txt']),
   bucket: 'some-bucket',
   outputFile: 'files.zip',
+  acl: 'public-read',
   s3: new AWS.S3({accessKeyId, secretAccessKey})
 })
 .then(console.log)
