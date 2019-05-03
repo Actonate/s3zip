@@ -22,9 +22,7 @@ zipFiles({keys, bucket, outputFile, s3})
 - __bucket  *(string)*__ : an S3 bucket<br>
 - __outputFile *(string)*__ : the destination key for the zip file on S3<br>
 - __s3 *(object)*__ : AWS S3 instance
-- __acl *string)*__ : Pass acl string, for public - 'public-read'
-**Returns**
-
+- __acl *(string)*__ : Pass acl string, for public - 'public-read'
 - __*(Promise)*__: Returns a promise of the S3 upload operation
 
 ## Example
